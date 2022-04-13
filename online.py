@@ -3,7 +3,6 @@ from itertools import chain
 import streamlit as st
 import pickle 
 import pandas as pd
-import sklearn
 
 pickle_in = open("classifier.pkl","rb")
 classifier =pickle.load(pickle_in)
